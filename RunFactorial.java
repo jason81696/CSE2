@@ -1,3 +1,7 @@
+//Jason Stein
+//CSE002: 1010-11
+//Problem2HW6
+
 import java.util.Scanner;
 
 public class RunFactorial {
@@ -23,7 +27,7 @@ public class RunFactorial {
 		System.out.println(factorial);
 	}
 	
-	private static int readInt(Scanner scanner) {
+	public static int readInt(Scanner scanner) {
 		String userData = "";
 		boolean isValid = true;
 		boolean readInputAgain = true;
